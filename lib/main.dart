@@ -4,7 +4,7 @@ void main(){
   runApp(
     new MaterialApp(
       home: new Center(
-        child: Column(
+        child: Row(
           children: <Widget>[
             Text('Alhamdulillah 1'),
             Text('Alhamdulillah 2'),
