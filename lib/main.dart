@@ -2,30 +2,28 @@ import 'package:flutter/material.dart';
 
 void main(){
   runApp(
-    MaterialApp(
-      home: Center(
-        child: ListView(
-          children: <Widget>[
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One'),
-            Text('One')
-          ],
-        ),
+    new MaterialApp(
+      home: GridView.count(crossAxisCount: 3,
+      children: <Widget>[
+        Text('One'),
+        Text('Two'),
+        Text('Three'),
+        Text('One'),
+        Text('Two'),
+        Text('Three'),
+        Text('One'),
+        Text('Two'),
+        Text('Three'),
+        Text('One'),
+        Text('Two'),
+        Text('Three'),
+        Text('One'),
+        Text('Two'),
+        Text('Three'),
+        Text('One'),
+        Text('Two'),
+        Text('Three')
+      ],
       ),
     )
   );
