@@ -1,30 +1,9 @@
 import 'package:flutter/material.dart';
+import './flutter_101_monitoring_app/monitoring_app.dart';
 
 void main(){
   runApp(
-    new MaterialApp(
-      home: GridView.count(crossAxisCount: 3,
-      children: <Widget>[
-        Text('One'),
-        Text('Two'),
-        Text('Three'),
-        Text('One'),
-        Text('Two'),
-        Text('Three'),
-        Text('One'),
-        Text('Two'),
-        Text('Three'),
-        Text('One'),
-        Text('Two'),
-        Text('Three'),
-        Text('One'),
-        Text('Two'),
-        Text('Three'),
-        Text('One'),
-        Text('Two'),
-        Text('Three')
-      ],
-      ),
-    )
+    MonitoringApp()
   );
 }
+
