@@ -42,8 +42,9 @@ class _MonitoringHomePageState extends State<MonitoringHomePage> {
                         "Monitoring",
                         style: TextStyle(fontSize: 20),
                       ),
+                      SizedBox(height: 8,),
                       Container(
-                        decoration: BoxDecoration(color: Colors.blue),
+                        // decoration: BoxDecoration(color: Colors.blue),
                         child: GridView.count(
                           shrinkWrap: true,
                           crossAxisCount: 3,
